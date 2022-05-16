@@ -6,5 +6,10 @@ public class Main {
         f.setId(1);
         f.setImporte(100);
         System.out.println("Total es: " + f.getImporteIva());
+
+        Factura g = FactoriaFacturas.getFactura("ivareducido");
+        g.setId(2);
+        g.setImporte(100);
+        System.out.println("Total es: " + g.getImporteIva());
     }
 }

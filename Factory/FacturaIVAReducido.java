@@ -4,6 +4,6 @@ public class FacturaIVAReducido extends Factura {
     
     @Override
     public double getImporteIva(){
-        return getImporte() * 1.15;
+        return getImporte() * 1.12;
     }
 }
